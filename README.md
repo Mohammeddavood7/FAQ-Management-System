@@ -10,7 +10,7 @@ Use caching for optimized performance.
 Technology Stack
 =====================
 Backend: Java, Spring Boot, Spring Data JPA, Spring Cache
-Database: H2 (In-memory, can be configured for MySQL/PostgreSQL)
+Database: MYSQL (In-memory, can be configured for MySQL/PostgreSQL)
 Cloud API: Google Cloud Translation API
 Build Tool: Maven
 Containerization: Docker, Docker Compose
