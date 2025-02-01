@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: FAQ-Management-System
+  datasource:
+    url: jdbc:mysql://localhost:3306/faq_db  # Replace with your MySQL URL and database name
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: your_mysql_username  # Replace with your MySQL username
+    password: your_mysql_password  # Replace with your MySQL password
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update  # Can be 'none', 'update', 'create', 'create-drop' as per your requirement
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  cache:
+    type: simple
+
+server:
+  port: 8080
