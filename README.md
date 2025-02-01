@@ -11,9 +11,7 @@ Technology Stack
 =====================
 Backend: Java, Spring Boot, Spring Data JPA, Spring Cache
 Database: MYSQL (In-memory, can be configured for MySQL/PostgreSQL)
-Cloud API: Google Cloud Translation API
 Build Tool: Maven
-Containerization: Docker, Docker Compose
 
 Installation Step
 ================
